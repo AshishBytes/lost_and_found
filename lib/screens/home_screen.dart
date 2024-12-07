@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:lost_and_found/data/list_of_items_dummy.dart';
-import 'package:lost_and_found/model/item.dart';
 import 'package:lost_and_found/model/user.dart';
 import 'package:lost_and_found/screens/add_item.dart';
 import 'package:provider/provider.dart';
@@ -41,8 +40,8 @@ class _HomeScreenState extends State<HomeScreen> {
         ),
         body: TabBarView(
           children: [
-            _buildItemListView(provider, false), // Lost Items
-            _buildItemListView(provider, true),  // Found Items
+            _buildItemListView(provider, false),
+            _buildItemListView(provider, true),
           ],
         ),
         floatingActionButton: FloatingActionButton(
@@ -54,7 +53,6 @@ class _HomeScreenState extends State<HomeScreen> {
             );
 
             if (newItem != null) {
-              // No need to add again; provider already handles this
               setState(() {});
             }
           },

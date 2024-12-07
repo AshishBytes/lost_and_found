@@ -103,10 +103,8 @@ class _AddItemState extends State<AddItem> {
                         type: isFoundSelected,
                       );
 
-                      // Add item to the provider
                       provider.addItem(newItem);
 
-                      // Close only once
                       Navigator.of(context).pop(newItem);
                     }
                   },

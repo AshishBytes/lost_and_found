@@ -158,7 +158,7 @@ class _ItemDetailsState extends State<ItemDetails> {
             style: TextStyle(
                 color: Colors.black,
                 fontSize: 16.0,
-                fontWeight: FontWeight.bold), // Set the desired text color
+                fontWeight: FontWeight.bold),
             children: <TextSpan>[
               TextSpan(
                 text: item.user.userName,
@@ -173,7 +173,7 @@ class _ItemDetailsState extends State<ItemDetails> {
             style: TextStyle(
                 color: Colors.black,
                 fontSize: 16.0,
-                fontWeight: FontWeight.bold), // Set the desired text color
+                fontWeight: FontWeight.bold),
             children: <TextSpan>[
               TextSpan(
                 text: item.user.phoneNo,

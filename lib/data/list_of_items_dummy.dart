@@ -81,7 +81,6 @@ class ListOfItems extends ChangeNotifier {
     notifyListeners();
   }
 
-  // Add this method
   void addUser(User user) {
     users.add(user);
     notifyListeners();

@@ -8,7 +8,7 @@ class Item {
   final String location;
   final User user;
   final DateTime dateTime = DateTime.now();
-  final bool type; // true for found, false for lost
+  final bool type;
 
   Item({
     required this.imageBytes,

@@ -1,5 +1,4 @@
 import 'dart:core';
-import 'package:lost_and_found/model/item.dart';
 
 class User {
   String email;
