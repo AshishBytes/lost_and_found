@@ -83,9 +83,6 @@ lib/
 │   ├── login_screen.dart    # Screen for user login
 │   ├── signup_screen.dart   # Screen for user signup
 │   └── add_lost_and_found_screen.dart # Add lost and found items screen
-└── widgets/                 # Reusable UI components
-    ├── custom_button.dart   # Custom button widget
-    └── item_card.dart       # Item card widget for displaying item details
 assets/
 ├── images/                  # Image assets
 │   ├── signup_page.png      # Screenshot for signup page
